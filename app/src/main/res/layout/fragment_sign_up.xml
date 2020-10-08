@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.SignUp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:id="@+id/app_name"
+
+
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/app_name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="60dp"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_email"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:inputType="textEmailAddress"
+                android:imeOptions="actionNext"
+                android:hint="User Email"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_name"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/user_email"
+                android:gravity="center"
+                android:inputType="textPersonName"
+                android:imeOptions="actionNext"
+                android:hint="User Name"/>
+
+            <EditText
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_phone"
+                android:layout_below="@+id/user_name"
+                android:gravity="center"
+                android:inputType="phone"
+                android:imeOptions="actionDone"
+                android:hint="Phone Number"
+                android:layout_marginBottom="5dp"/>
+
+
+
+        </RelativeLayout>
+
+
+
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/prog"
+            android:elevation="10dp"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"/>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/round_button_margin_bottom"
+            android:id="@+id/signup"
+            android:layout_marginLeft="@dimen/round_button_margin_right"
+            android:layout_marginRight="@dimen/round_button_margin_right"
+            android:text="Sign Up"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_background"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

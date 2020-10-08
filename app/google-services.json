@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "76167234157",
+    "firebase_url": "https://ivascall.firebaseio.com",
+    "project_id": "ivascall",
+    "storage_bucket": "ivascall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:76167234157:android:04d18bae4fd6dbdc01f564",
+        "android_client_info": {
+          "package_name": "com.example.ivascall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "76167234157-f17f2e2bvqsv5i5d4iauqoed81p75vkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZz_xFrXVa7BCZBgzNVCgM4HWZEGzQXjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "76167234157-f17f2e2bvqsv5i5d4iauqoed81p75vkr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

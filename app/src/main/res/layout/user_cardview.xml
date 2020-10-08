@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cardview_hight"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_marginTop="10dp"
+    android:clickable="true"
+    android:id="@+id/cardview"
+    xmlns:androidx.cardview="http://schemas.android.com/apk/res-auto">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="@dimen/sticker_pack_margin"
+        android:layout_marginLeft="@dimen/sticker_pack_margin"
+        app:cardCornerRadius="2dp"
+
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="@dimen/card_image_width"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:id="@+id/card_image"
+                android:background="@drawable/ic_profile"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="London Sweetshirt"
+                android:id="@+id/card_name"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/card_title_size"
+                android:layout_toRightOf="@+id/card_image"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="8dp"
+                />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:id="@+id/card_phone"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="@dimen/card_address_size"
+                android:layout_below="@+id/card_name"
+                android:layout_toRightOf="@+id/card_image"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="5dp"
+
+                />
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
